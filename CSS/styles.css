@@ -3,11 +3,15 @@
     padding: 0;
 }
 
-#cabecera, p, h3, a, footer, a, time, nav ul li {
+#cabecera,
+p,
+h3,
+a,
+footer,
+a,
+time {
     transition: .8s;
 }
-
-
 
 #cabecera {
     color: whitesmoke;
@@ -40,6 +44,7 @@ nav ul li {
     background-image: linear-gradient(to right, rgb(255, 255, 255), #6a5e74, #000000);
     cursor: pointer;
     background-size: 500%;
+    transition: .5s;
 }
 
 nav ul li:hover {
@@ -115,14 +120,51 @@ a:hover {
 
 .columna {
     float: left;
-    margin: 8px 15px;
+    margin: 8px 70px;
     width: 300px;
+    height: 613px;
+    text-align: center;
 }
 
-.columna blockquote {
-    border: 1px solid black;
-    background: rgb(255, 255, 255);
-    margin-bottom: 15px;
+.columna * {
+    padding: 8px 3px;
+}
+
+.columna .tarjeta {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.divinfo {
+    border-bottom: 1px solid black;
+}
+
+.columna .titulos {
+    font-weight: bold;
+    display: inline-table;
+    padding: 20px;
+}
+
+.columna .inform {
+    font-weight: lighter;
+    display: inline-table;
+    padding: 20px;
+}
+
+.columna .tarjeta2 {
+    text-align: center;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 590px;
+}
+
+.columna .tarjeta2 img {
+    width: 290px;
 }
 
 .pie {
