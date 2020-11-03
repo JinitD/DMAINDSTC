@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera, p, h3, a, footer, a, time, nav ul li {
+    transition: .8s;
+}
+
+
+
+#cabecera {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.904);
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#cabecera h1 {
+    display: inline-block;
+}
+
+.menu {
+    background: rgb(255, 255, 255);
+    padding: 5px 8px;
+}
+
+.menu li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    list-style: none;
+    padding: 5px 17px;
+    display: inline-block;
+}
+
+nav ul li {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), #6a5e74, #000000);
+    cursor: pointer;
+    background-size: 500%;
+}
+
+nav ul li:hover {
+    color: whitesmoke;
+    padding: 7px 25px;
+    background-position: right;
+}
+
+.agrupar {
+    width: 1300px;
+    background: rgba(226, 230, 235, 0.808);
+    margin: 15px auto;
+}
+
+.seccion {
+    margin: 3px 20px;
+    width: 800px;
+    padding: 5px;
+    float: left;
+}
+
+article {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    background: rgb(26, 25, 25);
+    color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article .descripcion .textos {
+    margin-bottom: 14px;
+}
+
+article .descripcion .tt {
+    font: bold;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+article .descripcion .subtt {
+    margin-bottom: 10px;
+    font: small;
+}
+
+article .imgs img {
+    border: 5px solid whitesmoke;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 8px;
+    width: 120px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+time {
+    color: rgb(209, 216, 212);
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+a:hover {
+    color: indigo;
+}
+
+.columna {
+    float: left;
+    margin: 8px 15px;
+    width: 300px;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.pie {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: small;
+    clear: both;
+    text-align: center;
+    padding: 14px;
+    background: rgb(255, 255, 255);
+}
+
+h2 {
+    font: bold 17px sans-serif;
+}
